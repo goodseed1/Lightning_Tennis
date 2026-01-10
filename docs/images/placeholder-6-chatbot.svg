@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="700" viewBox="0 0 350 700">
+  <defs>
+    <linearGradient id="phoneGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a1a"/>
+      <stop offset="100%" style="stop-color:#0a0a0a"/>
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1e3a5f"/>
+      <stop offset="100%" style="stop-color:#2d5a87"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Phone Frame -->
+  <rect x="10" y="10" width="330" height="680" rx="40" fill="url(#phoneGrad)" stroke="#3a3a3c" stroke-width="2"/>
+
+  <!-- Status Bar -->
+  <rect x="25" y="25" width="300" height="30" fill="#0a0a0a"/>
+  <text x="45" y="45" fill="#fff" font-family="Arial" font-size="14">4:07</text>
+  <circle cx="280" cy="40" r="8" fill="none" stroke="#4ade80" stroke-width="2"/>
+  <rect x="290" y="35" width="20" height="10" rx="2" fill="#4ade80"/>
+
+  <!-- Header -->
+  <rect x="25" y="55" width="300" height="50" fill="url(#headerGrad)"/>
+  <text x="40" y="85" fill="#fff" font-family="Arial" font-size="12">&lt;</text>
+  <text x="100" y="88" fill="#00bfff" font-family="Arial" font-size="18" font-weight="bold">Lightning Coach</text>
+
+  <!-- Tennis Ball Icon -->
+  <circle cx="80" cy="80" r="12" fill="#9acd32"/>
+  <path d="M72 70 Q80 80 72 90" fill="none" stroke="#fff" stroke-width="2"/>
+  <path d="M88 70 Q80 80 88 90" fill="none" stroke="#fff" stroke-width="2"/>
+
+  <!-- Chat Bubble -->
+  <rect x="35" y="120" width="260" height="380" rx="15" fill="#1e1e1e" stroke="#3a3a3c"/>
+
+  <!-- AI Message -->
+  <text x="50" y="150" fill="#fff" font-family="Arial" font-size="14">Hello! I'm your Lightning</text>
+  <text x="50" y="170" fill="#fff" font-family="Arial" font-size="14">Tennis App Helper.</text>
+
+  <!-- Tennis ball emoji -->
+  <circle cx="215" cy="165" r="10" fill="#9acd32"/>
+
+  <text x="50" y="200" fill="#b3b3b3" font-family="Arial" font-size="12">I'm ready to help you with app</text>
+  <text x="50" y="218" fill="#b3b3b3" font-family="Arial" font-size="12">usage and all your tennis questions:</text>
+
+  <!-- App Usage Section -->
+  <text x="50" y="250" fill="#fff" font-family="Arial" font-size="13" font-weight="bold">📱 App Usage</text>
+  <text x="50" y="272" fill="#b3b3b3" font-family="Arial" font-size="11">• Creating matches/meetups</text>
+  <text x="50" y="290" fill="#b3b3b3" font-family="Arial" font-size="11">• Joining and managing clubs</text>
+  <text x="50" y="308" fill="#b3b3b3" font-family="Arial" font-size="11">• ELO ranking system</text>
+  <text x="50" y="326" fill="#b3b3b3" font-family="Arial" font-size="11">• Doubles participation</text>
+
+  <!-- Tennis Knowledge Section -->
+  <text x="50" y="358" fill="#fff" font-family="Arial" font-size="13" font-weight="bold">🎾 Tennis Knowledge</text>
+  <text x="50" y="380" fill="#b3b3b3" font-family="Arial" font-size="11">• Technique and strategy advice</text>
+  <text x="50" y="398" fill="#b3b3b3" font-family="Arial" font-size="11">• Rules and scoring explanations</text>
+  <text x="50" y="416" fill="#b3b3b3" font-family="Arial" font-size="11">• Equipment recommendations</text>
+
+  <text x="50" y="450" fill="#fff" font-family="Arial" font-size="12">What can I help you with today?</text>
+
+  <!-- Warning -->
+  <text x="50" y="480" fill="#fbbf24" font-family="Arial" font-size="10">⚠️ This AI assistant may provide</text>
+  <text x="50" y="495" fill="#fbbf24" font-family="Arial" font-size="10">inaccurate information.</text>
+
+  <!-- Quick Action Buttons -->
+  <rect x="35" y="520" width="180" height="35" rx="18" fill="#1e3a5f" stroke="#3b82f6"/>
+  <text x="55" y="543" fill="#3b82f6" font-family="Arial" font-size="12">🎧 Contact Admin</text>
+
+  <rect x="35" y="565" width="200" height="35" rx="18" fill="#1e3a5f" stroke="#3b82f6"/>
+  <text x="55" y="588" fill="#3b82f6" font-family="Arial" font-size="12">📊 Recent Match Analysis</text>
+
+  <!-- Input Field -->
+  <rect x="35" y="620" width="260" height="45" rx="22" fill="#2a2a2a" stroke="#3a3a3c"/>
+  <text x="55" y="648" fill="#666" font-family="Arial" font-size="14">Type a message...</text>
+  <text x="270" y="648" fill="#666" font-family="Arial" font-size="18">▶</text>
+
+  <!-- Home Indicator -->
+  <rect x="125" y="675" width="100" height="5" rx="2" fill="#666"/>
+</svg>
