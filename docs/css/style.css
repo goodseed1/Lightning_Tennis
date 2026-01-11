@@ -231,7 +231,7 @@ img {
 }
 
 .feature-image img {
-  max-width: 420px;
+  max-width: 441px;
   width: 100%;
   border-radius: 24px;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
@@ -422,7 +422,7 @@ img {
   }
 
   .feature-image img {
-    max-width: 360px;
+    max-width: 378px;
   }
 
   .feature-content {
@@ -451,7 +451,7 @@ img {
   }
 
   .feature-image img {
-    max-width: 336px;
+    max-width: 353px;
   }
 
   .footer-links {
